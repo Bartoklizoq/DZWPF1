@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZWPF1", "DZWPF1\DZWPF1.csproj", "{FC6458FC-CBD1-4186-9BA8-4D708ED4FEAE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9B25DA65-BA90-4983-AB20-BB8AA82E7A40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CT", "CT\CT.csproj", "{1B4FDBA5-32EB-4783-8C0F-FE4C0A2650D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{FC6458FC-CBD1-4186-9BA8-4D708ED4FEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC6458FC-CBD1-4186-9BA8-4D708ED4FEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC6458FC-CBD1-4186-9BA8-4D708ED4FEAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4FDBA5-32EB-4783-8C0F-FE4C0A2650D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4FDBA5-32EB-4783-8C0F-FE4C0A2650D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4FDBA5-32EB-4783-8C0F-FE4C0A2650D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4FDBA5-32EB-4783-8C0F-FE4C0A2650D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B4FDBA5-32EB-4783-8C0F-FE4C0A2650D5} = {9B25DA65-BA90-4983-AB20-BB8AA82E7A40}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86504EA5-1237-4FB8-81DE-C611E73716CB}
