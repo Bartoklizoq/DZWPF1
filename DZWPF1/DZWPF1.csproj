@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SmtpServer" Version="8.0.4" />
+  </ItemGroup>
+
 </Project>
